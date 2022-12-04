@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: right;
+    margin-left: -20px;
+    margin-top: -30px;
+    position: fixed;
+}
+.fa{
+    height: 65px;
+    width: 100px;
+    font-size: 10px;   
+}
+li{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #262626;
+}
+.first-profile{
+    border-radius: 50%;
+}
+.insta-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    color: black;
+}
+.bars{
+    padding: 35px 15px 15px 0px;   
+}
+ul li{
+    font-size: 20px;
+}
+.text{
+    font-size: 18px;
+}
+.second-section{
+    margin-top: -20px; 
+    display: flex;
+    flex-direction: column; 
+    position: absolute; 
+    left: 30%;
+}
+
+.vl{
+    border-right: 1px solid #d7d7d6;
+    height: 100vh;
+    position: absolute;
+    left: 18%;
+    top: 0px;
+}
+main{
+    display: flex;
+}
+.main-body{
+    display: flex;
+    
+}
+.second-section-div ul li img{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    background: linear-gradient(to left, #d53a9d, orange);
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: 7px;
+}
+.top-images{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: space-around;
+    border: 1px solid #d7d7d6; 
+    padding: 14px;
+    border-radius: 10px;
+}
+.second-section-div ul li{
+    font-size: 12px;
+}
+.second-section{
+    padding: 10px;
+    margin-left: -20px;
+     
+}
+.second-section .new-posts{
+    color: #262626;
+    position: relative;
+    bottom: -25px;
+    right: -300px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 9px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 3px #d7d7d6;
+    border-radius: 15px;
+}
+.img-icon{
+    background: linear-gradient(to left, #d53a9d, orange);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+.dot-logo{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.second-div-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d7d7d6;
+    border-radius: 10px;
+}
+.bottom-div li{
+   margin: -25px; 
+}
+.bottom-div{
+    position: relative;
+}
+.first-post{
+    margin-top: -20px;
+    
+}
+.fa-bookmark-o{
+    position: absolute;
+    right: -50px;
+    top: 20px;
+
+}
+.helloworld{
+    font-weight: lighter;
+}
+.comments{
+    color: #d7d7d6;
+}
+.bottom-sectin-div{
+    line-height: 5px;
+    border: 1px solid #d7d7d6;
+    border-radius: 10px;
+}
+.third-section-img{
+    position: relative;
+    right: -900px;
+    top: 40px;
+}
